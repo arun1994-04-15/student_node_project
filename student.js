@@ -5,7 +5,7 @@ const cors = require("cors")
 app.use(cors());
 const mongodb = require("mongodb");
 const DB = "studentDatabase"
-const URL = "mongodb://localhost:27017"
+const URL = "mongodb+srv://arunkumarpandi:user123@cluster0.g0isi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 let students = [];
 
